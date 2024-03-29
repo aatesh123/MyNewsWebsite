@@ -30,7 +30,6 @@ const News = (props)=>{
         props.setProgress(100);
 
     }
-  /// work same as componentdid  mount
     useEffect(() => {
         updateNews(); 
     }, [])

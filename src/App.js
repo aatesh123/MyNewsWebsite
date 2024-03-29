@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 
 const App =()=> {
-  const apiKey=process.env.REACT_APP_NEWS_API
+  const apiKey= '4df91976ca034fc0ab942a943cb5b9e6';
   const [progress, setProgress] = useState(0);
   
  
